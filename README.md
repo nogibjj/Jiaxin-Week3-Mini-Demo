@@ -11,7 +11,7 @@ This is a mini demo to show how to use cargo-server in Rust.
 
 ## Install Rust on Terminal
 1. Type: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-2. source "$HOME/.cargo/env"
+2. `source "$HOME/.cargo/env"`
 <img width="588" alt="Screen Shot 2023-02-01 at 3 31 00 PM" src="https://user-images.githubusercontent.com/112274822/216160331-f3634001-3bcb-4901-b1c1-ed2795985923.png">
 
 ## To use cargo-server in Rust
@@ -36,7 +36,6 @@ cargo install cargo-server
 5. Using `—path`, you can also specify a special path:
 * here is my example: `cargo server --quiet --open --path /workspaces/week-2-minn-repo-yjx/examples/simple-app`
 <img width="146" alt="Screen Shot 2023-02-01 at 3 57 40 PM" src="https://user-images.githubusercontent.com/112274822/216162960-141e90ba-72f2-4ba8-ac0b-d4469d9fab04.png">
-
 
 * The results are shown below:
 <img width="839" alt="Screen Shot 2023-02-01 at 2 51 41 PM" src="https://user-images.githubusercontent.com/112274822/216162782-db6ffb3e-0b62-4df8-9111-fa2dd0b00e19.png">
