@@ -31,6 +31,7 @@ cargo install cargo-server
 * Change into the project directory using `cd`
 * Publish the package to the local registry using `cargo server publish`
 * Add the local registry as a source in your Cargo.toml file:
+<img width="425" alt="Screen Shot 2023-02-01 at 4 12 59 PM" src="https://user-images.githubusercontent.com/112274822/216164482-088c3f5a-4df4-44de-99e1-c1a17baa05d7.png">
 
 5. Using `—path`, you can also specify a special path:
 * here is my example: `cargo server --quiet --open --path /workspaces/week-2-minn-repo-yjx/examples/simple-app`
