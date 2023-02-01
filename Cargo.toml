@@ -1,14 +1,11 @@
 [package]
 name = "cargo-server"
 version = "0.2.1"
-description = "Helps you serve a static site, single page application or just a static file"
+description = "Teach you to use cargo-server"
 license = "MPL-2.0"
-authors = ["Raphael Amorim <rapha850@gmail.com>"]
+authors = ["Jiaxin Ying <jy362.duke.edu>"]
 edition = "2021"
-keywords = ["cargo", "server", "static", "single-page", "https"]
 categories = ["command-line-utilities", "development-tools"]
-documentation = "https://github.com/raphamorim/cargo-server#readme"
-repository = "https://github.com/raphamorim/cargo-server"
 rust-version = "1.64.0"
 include = ["src", "README.md"]
 
