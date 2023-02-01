@@ -11,7 +11,7 @@ This is a mini demo to show how to use cargo-server in Rust.
 
 ## Install Rust on Terminal
 1. Type: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-2. `source "$HOME/.cargo/env"`
+2. To configure your current shell, run: `source "$HOME/.cargo/env"`
 <img width="588" alt="Screen Shot 2023-02-01 at 3 31 00 PM" src="https://user-images.githubusercontent.com/112274822/216160331-f3634001-3bcb-4901-b1c1-ed2795985923.png">
 
 ## To use cargo-server in Rust
@@ -22,7 +22,6 @@ cargo install cargo-server
 
 2. After installing cargo-server, you can use this command inside the directory for your project. By default, it will create in port 8000:
 <img width="476" alt="Screen Shot 2023-02-01 at 4 02 44 PM" src="https://user-images.githubusercontent.com/112274822/216162897-40fc89b9-591e-4317-a89a-1518e9abbce7.png">
-
 
 3. After installing, you can run cargo server to start a local registry for your Rust packages. This can be useful for serving private crates, or for testing and development.
 
